@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Dead Sells</title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- Current theme -->
+  <link rel="stylesheet" href="styles/slate-bootstrap.min.css">
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -35,7 +36,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#images">Gallery</a></li>
             <li><a href="#shows">Shows</a></li>
-            <li><a href="#media">Media</a></li>
+            <li style="display:none;"><a href="#media">Media</a></li>
+			<li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -68,32 +70,50 @@
         </div>
       </div>
     </div>
-
+	<br>
+	<br>
     <div id="shows" class="row">
-        <div class="col-md-6">
-            Shows
+        <div class="col-md-8 col-md-offset-2">
+			<a href="https://www.facebook.com/events/1775106266063548/?active_tab=posts">
+				<div class="flyer col-md-4">
+					<img src="images/BulaImage.jpg" style="width:100%;">
+				</div>
+				<div class="info col-md-8">
+					<div class="what">
+					What: An Evening in Each Other's Shoes! A CASA Fundraiser
+					</div>
+					<div class="where">
+					Where: Bula Kafe
+					<div>
+					2500 5th Ave N, Saint Petersburg, Florida 33713
+					</div>
+					</div>
+					<div class="when">
+					When: Saturday, March 12, 7 PM - 3 AM
+					</div>
+				</div>
+			</a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" style="display:none;">
             Shows2
         </div>
     </div>
-
-    <div id="media" class="row">
-        <div class="col-md-6">
+	<br>
+	<br>
+    <div id="media" class="row" style="display: none;">
+	    <div class="col-md-6">
             Media
         </div>
         <div class="col-md-6">
             Media2
         </div>   
     </div>
-
+	<br>
+	
     <div id="contact" class="row">
-        <div class="col-md-6">
-            Contact
-        </div>
-        <div class="col-md-6">
-            Contact2
-        </div>    
+        <div class="col-md-6 col-md-offset-3" style="text-align:center;">
+            Contact us at <a href="mailto:DeadSells.Band@gmail.com">DeadSells.Band@gmail.com</a>
+        </div> 
     </div>
 
   </div>
